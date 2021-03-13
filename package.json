@@ -3,13 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/babel-preset-css-prop": "^11.2.0",
     "@emotion/core": "^11.0.0",
     "@emotion/react": "^11.1.5",
     "@emotion/styled": "^11.1.5",
+    "@hot-loader/react-dom": "^17.0.1",
+    "@types/jest": "^26.0.20",
     "axios": "^0.21.1",
+    "craco": "0.0.3",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "jsx-runtime": "^1.2.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
+    "react-hot-loader": "^4.13.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.1",
     "swr": "^0.3.11",
@@ -37,5 +44,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.2",
+    "@types/react-router-dom": "^5.1.7",
+    "craco-alias": "^2.2.0",
+    "craco-plugin-react-hot-reload": "^0.1.0",
+    "eslint-loader": "^4.0.2",
+    "react-app-rewire-alias": "^1.0.1",
+    "react-app-rewired": "^2.1.8"
   }
 }

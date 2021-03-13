@@ -1,14 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-export default () => {
+const App:React.FC = () => {
   return (
     <h1>
-      <a
-        href="https://github.com/SoYoung210/cra-template-soso"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        cra-template-soso
-      </a>
+      Hello world
     </h1>
-  )
+  );
+};
+
+export default App;

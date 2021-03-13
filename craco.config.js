@@ -1,3 +1,5 @@
+reactHotReloadPlugin = require('craco-plugin-react-hot-reload');
+
 const path = require('path');
 const resolve = arg => path.resolve(__dirname, arg);
 const emotionPresetOptions = {};
@@ -16,6 +18,7 @@ module.exports = {
   webpack: {
     alias: {
       '@': resolve('src'),
+      'react-dom': '@hot-loader/react-dom',
     },
   },
   jest: {
@@ -25,4 +28,7 @@ module.exports = {
       },
     },
   },
+  plugins: [{
+    plugin: reactHotReloadPlugin,
+  }],
 };
